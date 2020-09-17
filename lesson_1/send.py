@@ -1,5 +1,6 @@
 import pika
 
+
 def main():
 	credentials = pika.PlainCredentials('ofryadmin', 'ofryadmin')
 	parameters = pika.ConnectionParameters('localhost', 5672, '/', credentials)
